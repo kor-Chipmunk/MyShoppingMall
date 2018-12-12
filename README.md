@@ -1,4 +1,4 @@
-# MyShoppingMal
+# MyShoppingMall
 This project is based on RubyOnRails Framework.  
 
 # Author
