@@ -1,7 +1,15 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+INPROGRESS:
+  id: 1
+  name: "In Progress"
 
-one:
-  name: MyString
+PLACED:
+  id: 2
+  name: "Placed"
 
-two:
-  name: MyString
+SHIPPED:
+  id: 3
+  name: "Shipped"
+
+CANCELLD:
+  id: 4
+  name: "Cancelled"

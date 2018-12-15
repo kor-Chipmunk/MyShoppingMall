@@ -2,7 +2,18 @@
 
   <div class="row">
     <div class="col-xs-8">
-      <h4><%= product.name %></h4>
+      <h4><%= product.name %>
+      - 
+      <% if order_item.order.order_status_id == 1 %>
+      In Progress
+      <% elsif order_item.order.order_status_id == 2 %>
+      Placed
+      <% elsif order_item.order.order_status_id == 3 %>
+      Shipped
+      <% elsif order_item.order.order_status_id == 4 %>
+      Cancelled
+      <% end %>
+      </h4>
     </div>
     <div class="col-xs-4">
 

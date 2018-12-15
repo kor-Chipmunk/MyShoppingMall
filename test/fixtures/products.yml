@@ -1,11 +1,23 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+TSHIRT:
+  id: 1
+  name: "T-Shirt"
+  price: 12.49
+  active: true
 
-one:
-  name: MyString
-  price: 9.99
-  active: false
+HOODIE:
+  id: 2
+  name: "Hoodie"
+  price: 16.49
+  active: true
 
-two:
-  name: MyString
-  price: 9.99
-  active: false
+BLUEJEAN:
+  id: 3
+  name: "Blue jean"
+  price: 10.29
+  active: true
+
+LONGPADDING:
+  id: 4
+  name: "Long padding"
+  price: 60.29
+  active: true

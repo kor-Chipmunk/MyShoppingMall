@@ -10,6 +10,7 @@ OrderStatus.create! id: 2, name: "Placed"
 OrderStatus.create! id: 3, name: "Shipped"
 OrderStatus.create! id: 4, name: "Cancelled"
 
+Admin.delete_all
 admin = Admin.new(
     email: "admin@example.com",
     password: "!@ad13579",
